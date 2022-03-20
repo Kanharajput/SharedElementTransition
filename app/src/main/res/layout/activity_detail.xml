@@ -19,11 +19,25 @@
         app:srcCompat="@drawable/raw_image"
         tools:layout_editor_absoluteY="2dp" />
 
+    <!--if shared element have different ids then it will not affect anything-->
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Kanha ki Kahani"
+        android:textColor="#cf4a80"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:transitionName="change_story_title_position" />
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_weight="6"
-       android:text="@string/dummy_text" />
+        android:text="@string/dummy_text" />
 </LinearLayout>
