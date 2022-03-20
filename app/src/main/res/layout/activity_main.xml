@@ -38,6 +38,7 @@
         android:layout_height="328dp"
         android:layout_marginTop="200dp"
         android:src="@drawable/raw_image"
+        android:transitionName="change_raw_image_position"
         android:onClick="openDetailActivity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
